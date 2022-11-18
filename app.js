@@ -19,7 +19,7 @@ const fetchPrice= async(ctype)=>{
     const volume=r.data.coin.volume;
     const change=r.data.coin.priceChange1d;
     const base=r.data.coin.name;
-    const target='USD';
+    const target='INR';
     // const time=r.data.timestamp;
 
 
